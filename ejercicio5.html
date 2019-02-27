@@ -5,17 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css_fontawesome.css">
+    <!-- <link rel="stylesheet" href="css_fontawesome.css"> -->
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <style>
+            #right,#down,#up,#left{
+                font-size:100px;
+                padding:50px;
+                margin:5px;
+                color: white;
+                text-align: center;
+            }
+            #right,#up{
+                margin-right:0px;
+                padding-right:100px;
+
+            }
+            #right{
+                padding-right:75px;
+                background-color:red;
+            }
+            #left,#down{
+                margin-left:10px;
+                padding-left:100px;
+            }
+            #left{
+                padding-left: 75px;
+                background-color: black;
+            }
+            #container{
+                position:absolute;
+                right: 38%;
+            }
+            #down{
+                background-color: green;
+            }
+            #up{
+                background-color: blue;
+            }
+        </style>
 </head>
 
 <body>
+
     <a href="index.html">Volver</a>
-    <div>
-        <i id="right" class="fas fa-hand-point-right"></i>
-        <i id="down" class="fas fa-hand-point-down"></i>
-        <i id="up" class="fas fa-hand-point-up"></i>
-        <i id="left" class="fas fa-hand-point-left"></i>
+    <div id="container">
+        <i id="right" class="fa-spin fas fa-hand-point-right"></i>
+        <i id="down" class="fa-spin fas fa-hand-point-down"></i>
+        <br>
+        <i id="up" class="fa-spin fas fa-hand-point-up"></i>
+        <i id="left" class="fa-spin fas fa-hand-point-left"></i>
 
     </div>
 

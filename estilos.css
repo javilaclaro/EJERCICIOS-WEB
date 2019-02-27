@@ -32,20 +32,15 @@ body {
     font-style: italic
 }
 .bicis{
-    height: 500px;
+    width: 30%;
 
 }
 .dvi{
+    width: 30%;
+    background-color:beige;
+    border-radius: 20px;
+    padding: 10px; 
     display: inline-block;
-    text-align: center;
-    font-size: 30px;
-    margin:10px;
-}
-.borde{
-    background-color: burlywood;
-    margin: 5px;
-    margin-top: 5px;
-
 }
 
 #superior{
