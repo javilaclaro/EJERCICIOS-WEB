@@ -11,3 +11,65 @@ body {
 .fnt-blue{
     color: blue
 }
+
+.imagen{
+    width: 33%;
+    height: 600px;
+    /* margin: auto; */
+    display: inline-block;
+    align-content: center;
+}
+.titulo{
+    color: mediumaquamarine;
+    font-size: 30px;
+    font-style: italic;
+}
+.texto{
+    color: blue;
+    font-size: 15px
+}
+.destacado{
+    font-style: italic
+}
+.bicis{
+    height: 500px;
+
+}
+.dvi{
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    margin:10px;
+}
+.borde{
+    background-color: burlywood;
+    margin: 5px;
+    margin-top: 5px;
+
+}
+
+#superior{
+    text-align: center;
+    width: 100%;
+    background-color: blue;
+    color: white;
+
+}
+#media{
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+#inferior{
+    text-align: center;
+    width: 100%;
+    background-color: red;
+    color: white;
+}
+#entero{
+    margin: auto;
+  width: 20%;
+  border: 1px solid black;
+  font-size: 20px;
+}

@@ -1,0 +1,38 @@
+#right{
+    font-size: 40px;
+    text-align:center;
+    margin-left:40%;
+    background-color: red;
+    color:white;
+    padding:60px;
+
+}
+#left{
+    font-size: 40px;
+    text-align:center;
+    margin-right: 40%;
+    background-color:green;
+    color:white;
+    padding:60px;
+
+
+}
+#up{
+    font-size: 40px;
+    text-align:center;
+    margin-left:40%;
+    background-color: blue;
+    color:white;
+    padding:60px;
+
+
+}
+#down{
+    font-size: 40px;
+    text-align:center;
+    margin-right: 40%;
+    background-color: black;
+    color:white;
+    padding:60px;
+
+}
