@@ -1,11 +1,70 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <style>
+        div.campo div:not(.fila) {
+            height: 40px;
+            width: 40px;
+            display: inline-block;
+            background-color: grey;
+            margin: 5px;
+        }
+
+        div.campo div:not(.mina):not(.fila):hover {
+            background-color: green;
+        }
+        .fila .mina:hover{
+            background-color: red;
+        }
+        span{
+            color: gray;
+            font-size: 39px;
+            position: fixed;
+        }
+        span:hover{
+            color:black;
+
+        }
+        div.fila{
+            position: relative;
+        }
+    </style>
 </head>
+
 <body>
     <a href="index.html">Volver</a>
+    <div class="campo">
+        <div class="fila">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div class="mina" class="fas fa-bomb"><span class="fas fa-bomb"></span></div>
+
+            <div></div>
+            <div></div>
+        </div>
+        <div class="fila">
+            <div></div>
+            <div class="mina" class="fas fa-bomb"><span class="fas fa-bomb"></span></div>
+            <div class="mina" class="fas fa-bomb"><span class="fas fa-bomb"></span></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="fila">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div class="mina" class="fas fa-bomb"><span class="fas fa-bomb"></span></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
 </body>
+
 </html>

@@ -1,4 +1,56 @@
 #delfin{
-    width: 30%;
-    background-color: white;
+    width: 40%;
+}
+div#delfin_text{
+    float:left;
+    display:block;
+    margin-left: 200px;
+    width: 33.33%;
+    clear: both;
+    display: table;
+    margin-top: 20px;
+    color: blue;
+}
+#left-up-text{
+   float:right;
+    text-align: right;
+    width: 300px;
+    margin-right: 200px;
+
+}
+#horizontal-line{
+    width: 200px;
+    background-color: aquamarine;
+    height: 3px;
+    margin-right: 100px;
+}
+#right-text{
+    float:right;
+    align-content: right;
+    right: 10px;
+    margin-right: 100px;
+    
+}
+#hor_line{
+    border-bottom: 3px solid aquamarine;
+}
+.vertical-line{
+border-right: 8px solid aquamarine;
+border-left: 8px solid aquamarine;
+text-align: left;
+padding-left: 15px;
+margin-right: -100px;
+line-height: 5px;
+height: 150px;
+margin-top: 20px;
+color: blue;
+}
+#right-up-text{
+    margin-left: 75px;
+    width: 200px;
+    color: blue;
+}
+#cliente{
+    color: darkblue;
+    font-size: 2x
 }
